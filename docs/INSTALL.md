@@ -11,10 +11,15 @@ git clone https://github.com/your-username/OpenUBA.git
     curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
     python3 get-pip.py     
     sudo python3 get-pip.py
+    
+    ======
+    ubuntu: 
+    sudo apt install python3-pip
+    
 ```
 2. Install the python dependencies and execute the makefile
 ```
-pip3 install requirements.txt
+pip3 install requirements.txt     // pip3 install -r requirements.txt
 make
 ```
 3. Install HADOOP and JDK
